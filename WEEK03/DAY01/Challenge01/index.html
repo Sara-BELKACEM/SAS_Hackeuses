@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Portfolio de Projets</h1>
+  </header>
+
+  <section class="portfolio">
+
+      <div class="project-card">
+        <img src="./Public/PP.jpg" alt="Projet 3" />
+        <h3>Ma premiere page</h3>
+        <p class="description">Premiere page site web</p>
+      </div>
+
+      <div class="project-card">
+        <img src="./Public/profil.jpg" alt="Projet 4" />
+        <h3>Profile Card</h3>
+        <p class="description">A simple card with a photo, name, and some basic info to showcase a person or profile.
+
+    </p>
+    </div>
+
+    <div class="project-card">
+        <video controls>
+            <source src="./Public/S.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas la vidéo.
+        </video>
+        <h3>Space Website</h3>
+        <p class="description">A website dedicated to space with images, descriptions, and facts about planets and the universe.
+        </p>
+    </div>
+    
+    
+    
+    <div class="project-card multi-media  video-multi">
+        <div class="media-container">
+            <video controls>
+                <source src="./Public/ST.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas la vidéo.
+            </video>
+            <img src="./Public/M1.jpg" alt="Image 1" />
+            <img src="./Public/M2.jpg" alt="Image 2" />
+            <img src="./Public/M3.jpg" alt="Image 3" />
+        </div>
+        <h3>Santé (Sign In & Sign Up)</h3>
+        <p class="description">User interface for signing in and registering, designed for a health-related app.</p>
+    </div>
+    <div class="project-card video video-only">
+        <video controls width="100%">
+            <source src="./Public/TDLV.mp4" type="video/mp4" />
+            Votre navigateur ne supporte pas la vidéo.
+        </video>
+        <h3>Todo List</h3>
+        <p class="description">An app to add, delete, and mark tasks as completed in a simple and effective way.
+            
+        </p>
+    </div>
+
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,239 @@
+* {
+
+    box-sizing: border-box;
+
+    margin: 0;
+
+    padding: 0;
+
+  }
+
+  body {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    line-height: 1.6;
+
+    background-color: #f5f7fa;
+
+    color: #1f2937;
+
+  }
+
+
+
+  /* Header */
+
+  header {
+
+    background: linear-gradient(90deg, #4f46e5, #6366f1);
+
+    color: #fff;
+
+    padding: 1rem 1rem;
+
+    text-align: center;
+
+  }
+
+  header h1 {
+
+    font-size: 2rem;
+
+  }
+
+
+
+  /* Navbar */
+
+  nav {
+
+    background-color: #374151;
+
+    padding: 0.75rem;
+
+    text-align: center;
+
+  }
+
+  nav a {
+
+    color: #e5e7eb;
+
+    margin: 0 1rem;
+
+    text-decoration: none;
+
+    font-weight: 500;
+
+    transition: color .2s;
+
+  }
+
+  nav a:hover {
+
+    color: #fff;
+
+  }
+
+
+
+  /* Contenu principal */
+
+  main {
+
+    max-width: 800px;
+
+    margin: 2rem auto;
+
+    padding: 0 1rem;
+
+  }
+
+  main h2 {
+
+    margin-bottom: 1rem;
+
+    font-size: 1.75rem;
+
+  }
+
+  main img {
+
+    display: block;
+
+    width: 100%;
+
+    border-radius: 8px;
+
+    margin: 1rem 0;
+
+  }
+
+  main p {
+
+    margin-bottom: 1.5rem;
+
+  }
+
+  main h3 {
+
+    margin-top: 1.5rem;
+
+    margin-bottom: 0.75rem;
+
+    font-size: 1.25rem;
+
+  }
+
+  ul {
+
+    list-style-type: disc;
+
+    margin-left: 1.5rem;
+
+    margin-bottom: 2rem;
+
+  }
+
+  ul li {
+
+    margin-bottom: 0.5rem;
+
+  }
+
+
+
+  /* Formulaire */
+
+  form {
+
+    background-color: #fff;
+
+    padding: 1.5rem;
+
+    border-radius: 8px;
+
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+
+  }
+
+  form label {
+
+    display: block;
+
+    margin-top: 1rem;
+
+    font-weight: 500;
+
+  }
+
+  form input,
+
+  form textarea {
+
+    width: 100%;
+
+    padding: 0.75rem;
+
+    margin-top: 0.5rem;
+
+    border: 1px solid #cbd5e1;
+
+    border-radius: 4px;
+
+    font-size: 1rem;
+
+  }
+
+  form button {
+
+    display: block;
+
+    width: 100%;
+
+    padding: 0.75rem;
+
+    margin-top: 1.5rem;
+
+    background-color: #4f46e5;
+
+    color: #fff;
+
+    border: none;
+
+    border-radius: 4px;
+
+    font-size: 1.1rem;
+
+    cursor: pointer;
+
+    transition: background-color .2s;
+
+  }
+
+  form button:hover {
+
+    background-color: #4338ca;
+
+  }
+
+
+
+  /* Responsive */
+
+  @media (max-width: 600px) {
+
+    header h1 {
+
+      font-size: 1.5rem;
+
+    }
+
+    main {
+
+      padding: 0 0.5rem;
+
+    }
+
+  }

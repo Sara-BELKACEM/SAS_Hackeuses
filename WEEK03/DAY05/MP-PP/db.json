@@ -1,0 +1,10 @@
+{
+  "projets": [
+    {
+      "id": "f6c7",
+      "title": "Projet 1",
+      "description": "Description du projet",
+      "image": "https://picsum.photos/300"
+    }
+  ]
+}

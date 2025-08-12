@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #333;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: white;
+    opacity: 0.9;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    font-size: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #f31212;
+    font-weight: bold;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.nav-links a:hover {
+    transform: scale(1.1);
+    color: #9a0606;
+    text-decoration: overline;
+}
+
+.nav-btn {
+    background: #f31212;
+    border: none;
+    padding: 0.5rem 1rem;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    border-radius: 20px;
+}
+
+.nav-btn:hover {
+    transform: scale(1.1);
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 1.5rem;
+    color: #f31212;
+    cursor: pointer;
+}
+
+.hero {
+    background: url('../assets/background.jpg') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 0 1rem;
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+.hero h2 {
+    font-size: 35px;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+.hero-buttons {
+    margin-top: 1rem;
+}
+
+.btn-primary, .btn-secondary {
+    padding: 0.9rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    margin: 0.5rem;
+    transition: transform 0.3s ease;
+}
+
+.btn-primary {
+    background: #f31212;
+    color: white;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.btn-secondary {
+    background: white;
+    color: #f31212;
+    border: 2px solid #f31212;
+    border-radius: 20px;
+    font-size: 16px;
+
+}
+
+.btn-primary:hover, .btn-secondary:hover {
+    transform: scale(1.1);
+}
+
+.mission {
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.stats div h3 {
+    font-size: 2rem;
+    color: #f31212;
+}
+
+.choisir {
+    background: #f9f9f9;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.card {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card i {
+    color: #f31212;
+    margin-bottom: 1rem;
+}
+
+.card button {
+    margin-top: 1rem;
+    padding: 12px 10px;
+    background: #f31212;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.card button:hover {
+    transform: scale(1.1);
+}
+
+.cta {
+    background: #f31212;
+    color: white;
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+.cta h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.cta-buttons {
+    margin-top: 1.5rem;
+    font-size: 16px;
+
+}
+
+.cta .btn-primary {
+    background: white;
+    color: #f31212;
+    border-radius: 20px;
+}
+
+.cta .btn-secondary {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+
+}
+
+.cta .btn-primary:hover, .cta .btn-secondary:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer .socials i {
+    margin: 0 0.5rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+footer .socials i:hover {
+    transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background: rgba(0, 0, 0, 0.9);
+        position: absolute;
+        top: 70px;
+        right: 0;
+        width: 200px;
+        padding: 1rem;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .stats {
+        flex-direction: column;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+ 
+
+}

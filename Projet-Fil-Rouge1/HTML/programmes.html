@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Programmes - SimplonCode</title>
+  <link rel="stylesheet" href="../CSS/programmes.css" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <img src="../assets/logo.webp" alt="SimplonCode Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="../HTML/index.html">Accueil</a></li>
+            <li><a href="../HTML/programmes.html">Programmes</a></li>
+            <li><a href="../HTML/contact.html">Contact</a></li>
+        </ul>
+        <div class="menu-toggle"><i class="fa-solid fa-bars"></i></div>
+        <button class="nav-btn">S'inscrire</button>
+    </nav>
+
+
+  <main>
+    <section class="programmes-section">
+      <h1>Nos Programmes</h1>
+      <p>Découvrez nos formations spécialisées dans les technologies numériques. <br> Chaque programme est conçu pour vous donner les compétences pratiques <br> recherchées par les entreprises.</p>
+    <div class="add-btn-container">
+      <button id="add-program-btn" class="btn-primary">➕ Ajouter un programme</button>
+    </div>
+      
+      <form id="add-program-form" style="display:none; margin-top:20px;">
+          <input type="text" id="title" placeholder="Titre" required />
+          <input type="text" id="description" placeholder="Description" required />
+          <input type="text" id="duration" placeholder="Durée" required />
+          <input type="text" id="skills" placeholder="Compétences (séparées par des virgules)" required />
+          <button type="submit" class="btn-primary">Ajouter</button>
+        </form>
+        <div id="programmes-container" class="cards"></div>
+    </section>
+  </main>
+
+  <footer>
+        <p>&copy; 2025 SimplonCode. Tous droits réservés.</p>
+        <div class="socials">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+    </footer>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="../JS/programmes.js"></script>
+</body>
+</html>
+
+

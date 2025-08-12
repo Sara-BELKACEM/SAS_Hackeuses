@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - SimplonCode</title>
+    <link rel="stylesheet" href="../CSS/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <img src="../assets/logo.webp" alt="SimplonCode Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="../HTML/index.html">Accueil</a></li>
+            <li><a href="../HTML/programmes.html">Programmes</a></li>
+            <li><a href="../HTML/contact.html">Contact</a></li>
+        </ul>
+        <div class="menu-toggle"><i class="fa-solid fa-bars"></i></div>
+        <button class="nav-btn">S'inscrire</button>
+    </nav>
+
+
+  <main class="contact-main">
+    <div class="contact-header">
+      <h1>Contactez-Nous</h1>
+      <p>Une question sur nos formations ?<br> Besoin d'informations personnalisées ? <br>Notre équipe est là pour vous accompagner dans votre projet.</p>
+    </div>
+
+    <div class="contact-content">
+
+      <div class="info-cards">
+        <div class="info-card">
+          <i class="fa-solid fa-location-dot"></i>
+          <div class="content">
+            <strong>Adresse</strong>
+            <small>123 Rue de la Tech<br>75001 Casa, Maroc</small>
+          </div>
+        </div>
+        <div class="info-card">
+          <i class="fa-solid fa-phone"></i>
+          <div class="content">
+            <strong>Téléphone</strong>
+            <small>+212 6 23 45 67 89</small>
+          </div>
+        </div>
+        <div class="info-card">
+          <i class="fa-solid fa-envelope"></i>
+          <div class="content">
+            <strong>Email</strong>
+            <small>contact@simploncode.fr</small>
+          </div>
+        </div>
+        <div class="info-card">
+          <i class="fa-regular fa-clock"></i>
+          <div class="content">
+            <strong>Horaires</strong>
+            <small>
+              Lun - Ven: 9h00 - 18h00<br>
+              Sam: 9h00 - 12h00<br>
+              Dim: Fermé
+            </small>
+          </div>
+        </div>
+      </div>
+
+      <section class="contact-form-section">
+        <h2>Envoyez-nous un Message</h2>
+        <form id="contact-form">
+          <label for="prenom">Prénom *</label>
+          <input type="text" id="prenom" name="prenom" placeholder="Votre prénom" required />
+          <label for="nom">Nom *</label>
+          <input type="text" id="nom" name="nom" placeholder="Votre nom" required />
+          <label for="email">Email *</label>
+          <input type="email" id="email" name="email" placeholder="votre.email@exemple.com" required />
+          <label for="telephone">Téléphone</label>
+          <input type="tel" id="telephone" name="telephone" placeholder="+212 7 23 45 67 89"   pattern="[0-9]{10}"   maxlength="10" required />
+          <label for="message">Message *</label>
+          <textarea id="message" name="message" placeholder="Décrivez votre projet ou posez vos questions..." required></textarea>
+          <button type="submit">Envoyer</button>
+        </form>
+      </section>
+
+    </div>
+
+    <section class="map-section">
+      <h1>Notre Localisation</h1>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.999890134562!2d2.352221515673028!3d48.85661407928747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671d877f24bb1%3A0x408ab2ae4bcb060!2sParis%2C%20France!5e0!3m2!1sfr!2sfr!4v1691538063277!5m2!1sfr!2sfr"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+  </main>
+
+
+      <footer>
+          <p>&copy; 2025 SimplonCode. Tous droits réservés.</p>
+          <div class="socials">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-instagram"></i>
+          </div>
+      </footer>
+
+<script src="../JS/contact.js"> </script>
+
+</body>
+</html>

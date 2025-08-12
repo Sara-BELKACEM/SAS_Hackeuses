@@ -1,0 +1,103 @@
+{
+  "programmes": [
+    {
+      "id": 1,
+      "title": "Développement Web",
+      "description": "Apprenez HTML, CSS, JavaScript et plus.",
+      "duration": "3 mois",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Design Graphique",
+      "description": "Maîtrisez les outils et techniques de design.",
+      "duration": "2 mois",
+      "skills": [
+        "Photoshop",
+        "Illustrator",
+        "Figma"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Base de Données",
+      "description": "Gérez vos données efficacement avec SQL.",
+      "duration": "1 mois",
+      "skills": [
+        "SQL",
+        "PostgreSQL",
+        "MySQL"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Marketing Digital",
+      "description": "Découvrez les stratégies de marketing en ligne.",
+      "duration": "2 mois",
+      "skills": [
+        "SEO",
+        "Google Ads",
+        "Social Media"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Cybersécurité",
+      "description": "Protégez vos systèmes et données contre les menaces.",
+      "duration": "4 mois",
+      "skills": [
+        "Network Security",
+        "Cryptography",
+        "Ethical Hacking"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Intelligence Artificielle",
+      "description": "Initiez-vous aux concepts et outils de l'IA.",
+      "duration": "3 mois",
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "TensorFlow"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Développement Mobile",
+      "description": "Créez des applications mobiles performantes.",
+      "duration": "3 mois",
+      "skills": [
+        "Flutter",
+        "React Native",
+        "Kotlin"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Gestion de Projet",
+      "description": "Planifiez et gérez vos projets efficacement.",
+      "duration": "2 mois",
+      "skills": [
+        "Agile",
+        "Scrum",
+        "Kanban"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Analyse de Données",
+      "description": "Apprenez à analyser et visualiser les données.",
+      "duration": "2 mois",
+      "skills": [
+        "Excel",
+        "Power BI",
+        "Python"
+      ]
+    }
+  ]
+}
